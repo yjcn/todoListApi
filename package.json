@@ -1,0 +1,27 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "CRUD api for todo list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error, no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjcn/todoListApi.git"
+  },
+  "author": "yjcn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjcn/todoListApi/issues"
+  },
+  "homepage": "https://github.com/yjcn/todoListApi#readme",
+  "dependencies": {
+    "express": "~4.0.0",
+    "body-parser": "~1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "~1.17.4"
+  }
+}
